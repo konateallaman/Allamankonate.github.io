@@ -93,10 +93,12 @@ body {
     padding: .45rem .85rem;
     border-radius: 10px;
     border: 1px solid var(--card);
-    background: transparent;
+    
     transition: all 0.25s ease;
+    background: rgba(0,212,255,0.05); 
+    color: var(--accent-hover);
 }
-.btn-ghost:hover { background: rgba(0,212,255,0.05); color: var(--accent-hover); }
+.btn-ghost:hover { background: transparent; }
 
 .mobile-only { display: none; }
 
@@ -294,5 +296,6 @@ a:focus, button:focus { outline: 3px solid rgba(0,212,255,0.18); outline-offset:
     display: block;
     border-radius: 50%;
 }
+
 
 
